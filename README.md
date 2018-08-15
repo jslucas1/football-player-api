@@ -32,8 +32,9 @@ $ npm install
 
 ## Running the application
 
-Run with node
+Run 
 ```
+$ cd ./football-player
 $ node server.js
 ```
 
@@ -43,10 +44,11 @@ $ node server.js
 
 ## Authors
 
-* **Austin Lucas** - *Initial work* 
+* **Austin Lucas**  
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
+* N/A
