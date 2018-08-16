@@ -34,6 +34,7 @@ app.get('/', (req, res) => {
 require('./app/routes/player.routes.js')(app);
 
 // listen for requests
-app.listen(80, () => {
-    console.log("Server is listening on port 3000");
+var port = process.env.PORT || 8080;
+app.listen(port, () => {
+    console.log("Server is listening on port " + port);
 });
